@@ -1,0 +1,23 @@
+/* LOCALSTORAGE - localStorage
+
+localStorage.setItem("nome", "Felipe");  // Salva o item NOME com o valor FELIPE
+localStorage.getItem("nome"); // Retorna o valor de NOME
+localStorage.removeItem("nome"); // Remove o item NOME
+localStorage.nome; // Forma mais rápida de mostrar valor do item NOME
+
+*/
+
+var nome = '';
+
+if (typeof localStorage.nome == 'undefined'){
+    localStorage.nome = prompt("Digite seu nome");
+}
+
+document.write(localStorage.nome);
+
+
+/* SESSIONSTORAGE - sessionStorage
+
+Mesma coisa que o localStorage, mas o sessionStorage apaga os itens ao sair do navegador
+
+*/

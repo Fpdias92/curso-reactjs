@@ -1,0 +1,24 @@
+// OPERAÇÕES EM ARRAY
+
+const lista = [1,2,3,4,5,6];
+
+// MAP = <editar depois>
+const novaLista = lista.map(function(item){
+    return item * 5;
+});
+
+console.log(novaLista);
+
+// REDUCE
+const soma = lista.reduce(function(total, proximo){
+    return total + proximo;
+});
+
+console.log(soma);
+
+// FIND
+const find = lista.find(function(item){
+    return item === 6;
+})
+
+console.log(find);

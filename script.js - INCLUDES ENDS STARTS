@@ -1,0 +1,14 @@
+// INCLUDES
+// Verifica se existe algo dentro da array e retorna TRUE ou FALSE (case sensitive)
+let nomes = ['Felipe', 'Augusto'];
+console.log(nomes.includes('Felipe'));
+
+// ENDSWITH - endsWith
+// Verifica se existe algo na variável que termina com o valor digitado e retorna TRUE ou FALSE (case sensitive)
+let nome = 'Felipe';
+console.log(nome.endsWith('ipe'));
+
+// STARTSWITH - startsWith
+// Verifica se existe algo na variável que começa com o valor digitado e retorna TRUE ou FALSE (case sensitive)
+let nome2 = 'Felipe';
+console.log(nome2.startsWith('Fel'));

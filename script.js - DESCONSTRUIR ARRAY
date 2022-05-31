@@ -1,0 +1,24 @@
+// DESCONSTRUIR ARRAY
+// METODO 1
+/*
+let nomes = ['Felipe', 'Dias', 30];
+
+console.log(nomes);
+
+
+let { 1:sobrenome } = nomes; // Pega o segundo item da array e atribui a variavel sobrenome
+document.write(sobrenome);
+
+let { 0:nome, 2:idade } = nomes; // Pega o primeiro e terceiro itens da array e atribui a variavel nome e idade respectivamente
+document.write(idade);
+
+*/
+
+// METODO 2
+
+let nomes = ['Felipe', 'Dias', 30];
+
+console.log(nomes);
+
+let [nome, sobrenome, idade] = nomes; // Cria uma variavel para cada array na ordem
+document.write(nomes);

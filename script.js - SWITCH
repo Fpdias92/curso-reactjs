@@ -1,0 +1,20 @@
+// SWITCH
+
+document.write("<br/> Escolha seu pedido: <br/>");
+document.write("0 = Sorvete / 1 = Suco <br/>");
+document.write("2 = Coca cola / 3 = Água gelada <br/><br/>");
+
+
+function pedir(){
+    x = prompt("O que deseja pedir?");
+
+    switch(x){
+
+        case "0": alert("Sorvete");break;
+        case "1": alert("Suco");break;
+        case "2": alert("Coca cola");break;
+        case "3": alert("Água gelada");break;
+        default : alert("Item inválido");break;
+
+    }
+}

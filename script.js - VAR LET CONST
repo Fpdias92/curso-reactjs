@@ -1,0 +1,16 @@
+// VARIAVEL = Permite acessar os dados da variavel fora do escopo onde ele foi criado
+// LET = Não permite acessar a informação fora do escopo
+// CONST = Variável fixa, não é permitido mudar essa variavel através de funções e etc
+
+var nome = 'Felipe'; 
+if (nome == 'Felipe'){
+    var idade = 30;
+    document.write("Tem idade: " + idade)
+}
+
+document.write("</br>");
+
+if (nome == 'Felipe'){
+    let sobrenome = 'Dias';
+    document.write(nome + " " + sobrenome);
+}

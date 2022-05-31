@@ -1,0 +1,16 @@
+// SPREAD OPERATOR EXEMPLO
+
+function cadastroPessoa(info){
+    
+    let novosDados = {
+        ...info,
+        cargo: 'Desenvolvedor',
+        status: 1,
+        codigo: 263,
+    }
+
+    return novosDados;
+
+}
+
+console.log(cadastroPessoa({nome: 'Felipe', sobrenome:'Dias', inicio:2022}));
